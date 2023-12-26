@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.clock {
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  border: 1px solid red;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-image: url("https://media.gettyimages.com/id/1267089170/photo/blank-clock-face-with-clock-hands.jpg?s=612x612&w=0&k=20&c=suiB-CqnqTTqaNZTGwjhVa0wMmbKjrVc0vrkT3Tn9cQ=");
+}
